@@ -1,13 +1,11 @@
 import csv, sys, os, errno
 import datetime, time
 
-ops3pdgs_password='4hbvFjW8S2yBIU+GDDR3tyULfqOy//LFSC+y+97dLpDjnHiWVxPusfBemJ/6fj0cYXWreb6MVoXyCyag4OGxmYLPS9Ldiwkvyxav9gFPy1ck81pxn2/GmiJ8qLGkb8gyRx4rA+ixeKRUgNksGYtOjQQH0yiHcpDz1By/arG1L0s='
-s3pdgs_password='BkBW4F3jwTMkMflLhqm0xoR1onwpgcy0ECgl71woUU9CDTOrvOT5QD5Vuy421A5ZM7rno4wGW4K3AkGtp0iAr6JN0ajOK3F2g96jWA/GMM6JyiAH7IvMt49cR/bz6cIxvhMlL0TjQoPKPVnehlUApGB6dc0uv8q4pRCIRdLu2lA='
-s3sysadm_password='00XBUqCqcIleuWg9kHpq0oouE7W2NB4W5RSd5j+9Rsx8pY9ojuXfT3IfnTaOgwXx70+8JZaMzentURP8kDpPtUQgvsfWtI8iTd3XrQduPFZVLt/OABy0RYSOkmkgihKs0OY+I0tKBpND0wUXiy39/TVoxW00oZHDoRTMwpLIPL4='
-s3mpfuser_password='bGgWWNlOOLCqBTX3VOrpMSsg8z3eS3wdoEHpQ4W7jE8OdYvYjqsgiNiDB1wEDgr8DeN5209ObV64tUTlcv83GPqFYssxdn13I8IAtd74AP7/dn22diPKzizJlcVWZdk/Eut76krshkPHo+TC17FclGHy8EJivdExgQq3da2Ux7Q='
-GEMS_ftp_password='XlcbD2EGp+TKslUlftx/rFt1GKVGJgs2dGAMhTbtB2TdrT0172R5D5S41XoIqz0S4VAlYNwNRoJc0l8iQvjAxptrHbmeo+Af2QXznbusRVOynYlgxQiPvG2Ccw9XjUDs708YJXRPidSAb4UUouXVGFNLFOE1NPasJ69shQ7eAns='
-
-
+ops3pdgs_password=''
+s3pdgs_password=''
+s3sysadm_password=''
+s3mpfuser_password=''
+GEMS_ftp_password=''
 def createDir(filename):
     if not os.path.exists(os.path.dirname(filename)):
         try:
